@@ -4,7 +4,7 @@
 
 docker-compose up -d
 
-docker-compose downs
+docker-compose down
 
 ## User secrets
 
