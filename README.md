@@ -1,5 +1,9 @@
 # SixMinApi
 
+dotnet build
+dotnet run
+dotnet watch
+
 ## Docker
 
 docker-compose up -d
@@ -16,6 +20,14 @@ dotnet user-secrets set "Password" "pa55w0rd!"
 
 dotnet tool install --global dotnet-ef
 
-dotnet ef migrations add inititmigration
+dotnet ef migrations add initialmigration
+
+dotnet ef migrations remove
 
 dotnet ef database update
+
+## Insert commands
+
+INSERT INTO dbo.Commands
+ (HowTo, Platform, CommandLine)
+VALUES ('Run a .NET App','.NET', 'dotnet run');

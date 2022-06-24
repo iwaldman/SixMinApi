@@ -4,7 +4,7 @@
 
 namespace SixMinApi.Migrations
 {
-    public partial class inititmigration : Migration
+    public partial class initialmigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

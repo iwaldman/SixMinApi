@@ -16,6 +16,5 @@ namespace SixMinApi.Models
 
         [Required]
         public string? CommandLine { get; set; }
-
     }
 }
